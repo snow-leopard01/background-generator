@@ -45,3 +45,7 @@ h3 {
   color: black;
   transform: scale(1.1);
 }
+
+input:hover {
+  background: blueviolet;
+}

@@ -1,3 +1,6 @@
+var _ = require("lodash");
+console.log(_);
+
 let css = document.querySelector("h3");
 let color1 = document.querySelector(".color1");
 let color2 = document.querySelector(".color2");
@@ -23,4 +26,3 @@ function randomColor() {
 color1.addEventListener("input", setGraident);
 color2.addEventListener("input", setGraident);
 randomColorGenerator.addEventListener("click", randomColor);
-// *******************
